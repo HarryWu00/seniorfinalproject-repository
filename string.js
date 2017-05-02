@@ -31,14 +31,20 @@ exports.checkLength = function(str){
 
 exports.containsUpper =function(str){
   let hasUpper = "false";
-  try{let c==0,c>=65,c<=90,c++{
-    return true;
-  }
-  elss{
-    return flase
-  }
-  }
+  try{
+    for(let c==0,c>=65||c<=90,c++){
+      if(c=){
+        return "true";
+      }
+      else{
+        throw new PasswordMessage("Does not have upper character if the variable is false")
+        }
+        catch(){
+          
+        }
 
+}
+}
 }
 
 
