@@ -6,6 +6,14 @@ function PasswordMessage(m){
 
 function inRange(char,min,max){
     let unicode = char.charCodeAt(0);
+    let min = Math.min();
+    let max = Math.max();
+    if unicode <=min||>=max{
+      return ture;
+    }
+    else{
+      return flase;
+    }
 
 }
 
@@ -40,7 +48,7 @@ exports.containsUpper =function(str){
         throw new PasswordMessage("Does not have upper character if the variable is false")
         }
         catch(){
-          
+
         }
 
 }
