@@ -50,3 +50,9 @@ This function is an object constructor outside of a class; you SHOULD NOT use th
 -  This function has all of the same logic as contains upper.
 -  Change the variable names and values so that you are looking for numerical characters.
 -  The range of lowercase numbers is 48 to 57 inclusively.
+
+#### contains special
+
+-This function should declare a variable, hasSpecial and initialize it to false;
+-Declare an array special = [33,64,35,36,37,94,38,42]
+-Loop through the special list, throwing and returning the correct values.
